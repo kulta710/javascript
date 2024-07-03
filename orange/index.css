@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    text-align: center;
+    padding-top: 20px;
+}
