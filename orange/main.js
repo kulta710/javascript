@@ -18,6 +18,7 @@ async function saveFile (event, arrBuf) {
 const createWindow = () => {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
+        show: false,
         width: 800,
         height: 600,
         webPreferences: {
@@ -27,6 +28,10 @@ const createWindow = () => {
 
     // and load the index.html of the app.
     mainWindow.loadFile(path.join(__dirname, 'index.html'))
+
+    mainWindow.once('ready-to-show', () => {
+        mainWindow.show()
+    })
 
     // Open the DevTools
     mainWindow.webContents.openDevTools();
