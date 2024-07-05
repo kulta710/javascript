@@ -92,9 +92,9 @@
 - [5. Quote Widget](https://www.youtube.com/watch?v=qyAG4M9eH8o&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=5) ✅
 - [6. IPC](https://www.youtube.com/watch?v=rX3axskesDw&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=6) ✅
 - [7. Application Menu](https://www.youtube.com/watch?v=MGC2W-dJtYM&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=7) ✅
-- [8. Context Menu](https://www.youtube.com/watch?v=MkVLaM9JAxM&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=8)
-- [9. Accelerators and Global Shortcuts](https://www.youtube.com/watch?v=-POUsDEfI14&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=9)
-- [10. Shell Module](https://www.youtube.com/watch?v=tFawuDeSGWM&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=10)
+- [8. Context Menu](https://www.youtube.com/watch?v=MkVLaM9JAxM&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=8) ✅
+- [9. Accelerators and Global Shortcuts](https://www.youtube.com/watch?v=-POUsDEfI14&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=9) ✅
+- [10. Shell Module](https://www.youtube.com/watch?v=tFawuDeSGWM&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=10) ✅
 - [11. Tray Module](https://www.youtube.com/watch?v=6guMb33u7Kg&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=11)
 - [12. CRUD File](https://www.youtube.com/watch?v=m7dXcuK03ho&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=12)
 
