@@ -1,0 +1,12 @@
+{
+  "name": "lecture_06",
+  "version": "1.0.0",
+  "description": "A project for studying node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kulta710",
+  "license": "MIT"
+}
