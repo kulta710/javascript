@@ -9,17 +9,17 @@
 - [#2 - Creating a React Application](https://www.youtube.com/watch?v=kVeOpcw4GWY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=2) ✅
 - [#3 - Components & Templates](https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3) ✅
 - [#4 - Dynamic Values in Templates](https://www.youtube.com/watch?v=pnhO8UaCgxg&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=4) ✅
-- [#5 - Multiple Components](https://www.youtube.com/watch?v=0sSYmRImgRY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=5)
-- [#6 - Adding Styles](https://www.youtube.com/watch?v=NbTrGcz4DW8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=6)
-- [#7 - Click Events](https://www.youtube.com/watch?v=0XSDAup85SA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=7)
-- [#8 - Using State (useState hook)](https://www.youtube.com/watch?v=4pO-HcG2igk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=8)
-- [#9 - Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=9)
-- [#10 - Outputting Lists](https://www.youtube.com/watch?v=tHjxSVaj_wY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=10)
-- [#11 - Props](https://www.youtube.com/watch?v=PHaECbrKgs0&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=11)
-- [#12 - Reusing Components](https://www.youtube.com/watch?v=-YpnB-zlkPU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=12)
-- [#13 - Functions as Props](https://www.youtube.com/watch?v=CWEOYFzgOJs&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=13)
-- [#14 - useEffect Hook (the basics)](https://www.youtube.com/watch?v=gv9ugDJ1ynU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=14)
-- [#15 - useEffect Dependencies](https://www.youtube.com/watch?v=jQc_bTFZ5_I&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=15)
+- [#5 - Multiple Components](https://www.youtube.com/watch?v=0sSYmRImgRY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=5) ✅
+- [#6 - Adding Styles](https://www.youtube.com/watch?v=NbTrGcz4DW8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=6) ✅
+- [#7 - Click Events](https://www.youtube.com/watch?v=0XSDAup85SA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=7) ✅
+- [#8 - Using State (useState hook)](https://www.youtube.com/watch?v=4pO-HcG2igk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=8) ✅
+- [#9 - Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=9) ✅
+- [#10 - Outputting Lists](https://www.youtube.com/watch?v=tHjxSVaj_wY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=10) ✅
+- [#11 - Props](https://www.youtube.com/watch?v=PHaECbrKgs0&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=11) ✅
+- [#12 - Reusing Components](https://www.youtube.com/watch?v=-YpnB-zlkPU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=12) ✅
+- [#13 - Functions as Props](https://www.youtube.com/watch?v=CWEOYFzgOJs&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=13) ✅
+- [#14 - useEffect Hook (the basics)](https://www.youtube.com/watch?v=gv9ugDJ1ynU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=14) ✅
+- [#15 - useEffect Dependencies](https://www.youtube.com/watch?v=jQc_bTFZ5_I&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=15) ✅
 - [#16 - Using JSON Server](https://www.youtube.com/watch?v=eao7ABGFUXs&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=16)
 - [#17 - Fetching Data with useEffect](https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17)
 - [#18 - Conditional Loading Message](https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18)
