@@ -1,6 +1,6 @@
 ## Bulma CSS Framework
-### 주요 사이트
-- [BULMA 홈페이지](https://bulma.io/)
+### Main Sites
+- [BULMA Hompage](https://bulma.io/)
 
 ### Net Ninja
 #### Bulma CSS Tutorial

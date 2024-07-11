@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Ninja | <%= title %></title>
-    <!-- GET request를 통해서 해당 static file이 위치한 곳에 직접 접근할 수 없다면, 이 link도 통하지 않는다. Express 서버는 기본적으로 접근할 수 없다. 그래서 어떤 파일에 접근할 수 있는지를 직접 지정해주어야 한다. -->
+    <!-- We can use link tag to access style file(also any other static files), only if we can access the directory via GET request(url) -->
+    <!-- Express make it impossible basically, so we can notice which directory can be accessed -->
     <link rel="stylesheet" href="/styles.css">
 </head>

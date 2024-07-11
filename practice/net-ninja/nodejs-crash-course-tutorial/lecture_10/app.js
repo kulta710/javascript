@@ -23,9 +23,8 @@ app.set('view engine', 'ejs')
 
 // middleware & static files
 app.use(express.static('public'))
-// express.urlencoded()는 굉장히 중요하다
-// 이 middleware를 사용해야만 req.body로 request에서 실어 보내는 데이터를
-// 읽어들일 수 있다.
+// express.urlencoded() is very important.
+// We can read data from request using req.body only if we use this middleware
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan('dev'))
 

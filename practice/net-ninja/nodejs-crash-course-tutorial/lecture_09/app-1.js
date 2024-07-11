@@ -9,7 +9,7 @@ const app = express()
 // connect to mongodb
 const dbURI = 'mongodb+srv://kulta710:bpfg10047@kulta710.bkqi64r.mongodb.net/node-tutorial?retryWrites=true&w=majority&appName=kulta710'
 
-// deprecation warning이 신경쓰인다면 다음과 같이 써서 무시할 수 있다.
+// If we bother from a deprecation warning, we can write like below to ignore it.
 // mongoose.connect(dbURI, { userNewUrlParser: true, useUnifiedTopology: true })
 
 mongoose.connect(dbURI)

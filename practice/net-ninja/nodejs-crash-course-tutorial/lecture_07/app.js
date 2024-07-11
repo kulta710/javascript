@@ -6,9 +6,9 @@ const app = express()
 // register view engine
 app.set('view engine', 'ejs')
 
-// express는 views를 default path로 보기 때문에
-// 특별히 지정하지 않으면, views 아래를 찾아본다.
-// 아래와 같이 'views' 이외의 경로를 지정해줄 수 있다.
+// The default path of express is 'views'
+// Without notice specifically, it automatically find the static files in 'views' folder
+// We can notice specific directory other than 'views' like below.
 // app.set('views', 'myviews')
 
 // listen for requests

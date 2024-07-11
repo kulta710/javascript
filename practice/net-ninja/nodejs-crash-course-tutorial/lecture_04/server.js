@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
             res.write(data)
             res.end()
 
-            // 이렇게 end에 data를 바로 넣어주어도 된다.
+            // It is possible to put data directly into res.end() method
             // res.end(data)
         }
     })

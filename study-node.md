@@ -1,6 +1,6 @@
-# Study Node.js
+# study-node
 
-## 주요 사이트
+## Main Sites
 - [nodejs.org](https://nodejs.org/en)
 - [npmjs.com](https://www.npmjs.com/)
 
@@ -20,5 +20,5 @@
 - [#11 - Express Router & MVC](https://www.youtube.com/watch?v=zW_tZR0Ir3Q&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU&index=11) ✅
 - [#12 - Wrap up](https://www.youtube.com/watch?v=nYAyhRAV87A&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU&index=12) ✅
 
-#### 참고 문헌
-- [강의 코드 / github](https://github.com/iamshaunjp/node-crash-course)
+#### References
+- [lecture-code-github](https://github.com/iamshaunjp/node-crash-course)

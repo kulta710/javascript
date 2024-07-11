@@ -1,5 +1,5 @@
 # Study Electron
-## 주요 사이트
+## Main Sites
 - [Electron JS HomePage](https://www.electronjs.org/)
 - [Electron JS Docs](https://www.electronjs.org/docs/latest/)
 - [Electron JS API](https://www.electronjs.org/docs/latest/api/app)
@@ -99,5 +99,5 @@
 - [11. Tray Module](https://www.youtube.com/watch?v=6guMb33u7Kg&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=11) ✅
 - [12. CRUD File](https://www.youtube.com/watch?v=m7dXcuK03ho&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&index=12) ✅
 
-#### 참고 문헌
-- [강의 코드 / github](https://github.com/gopinav/Electron-Tutorials)
+#### References
+- [lecture-code-github](https://github.com/gopinav/Electron-Tutorials)
