@@ -16,8 +16,8 @@
 - [#8 - Sorting & Limiting Data](https://www.youtube.com/watch?v=vI4GdN5wBTQ&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=8) ✅
 - [#9 - Nested Documents](https://www.youtube.com/watch?v=hjsCd3sy0Ns&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=9) ✅
 - [#10 - Operators & Complex Queries](https://www.youtube.com/watch?v=NRKGZdJTf48&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=10) ✅
-- [#11 - Using $in & $nin](https://www.youtube.com/watch?v=qrDh5XQ0nZ4&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=11)
-- [#12 - Querying Arrays](https://www.youtube.com/watch?v=zFzR2mCHhTk&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=12)
+- [#11 - Using $in & $nin](https://www.youtube.com/watch?v=qrDh5XQ0nZ4&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=11) ✅
+- [#12 - Querying Arrays](https://www.youtube.com/watch?v=zFzR2mCHhTk&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=12) ✅
 - [#13 - Deleting Documents](https://www.youtube.com/watch?v=hq7gGo-1CgM&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=13)
 - [#14 - Updating Documents](https://www.youtube.com/watch?v=s8YG0GvQInY&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=14)
 - [#15 - MongoDB Drivers](https://www.youtube.com/watch?v=a3H9rIj07sk&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=15)

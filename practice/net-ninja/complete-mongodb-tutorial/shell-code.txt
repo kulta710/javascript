@@ -95,8 +95,36 @@ db.books.find({ rating: {$gte: 8} })
 // multiple conditions
 db.books.find({ rating: {$gt: 7}, author: "Patrick Rothfuss" })
 
-// 'or' operator
+// $or
 db.books.find({$or: [{ rating: 7 }, { rating: 9 }]})
 db.books.find({$or: [{ rating: 7 }, { author: "Terry Pratchett" }]})
 
 db.books.find({$or: [{ pages: { $lt: 300 } }, { pages: { $gt: 400 } }]})
+
+// $in
+db.books.find({ rating: {$in: [7, 8, 9]} })
+
+// $in is simpler than $or in this case
+db.books.find({$or: [{rating: 7}, {rating: 8}, {rating: 9}]})
+
+// #nin
+db.books.find({ rating: {$nin: [7, 8, 9]} })
+db.books.find({ rating: {$nin: [7, 8]} })
+
+// filter for array
+// whether array of genres contains "fantasy"
+db.books.find({genres: "fantasy"})
+
+// whether array of genres exactly matches ["magic"]
+db.books.find({genres: ["magic"]})
+db.books.find({genres: ["fantasy"]})
+
+// the order is important
+db.books.find({genres: ["fantasy", "magic"]})
+db.books.find({genres: ["magic", "fantasy"]})
+
+// $all
+db.books.find({genres: {$all: ["fantasy", "sci-fi"]}})
+
+// query for nested documents
+db.books.find({"reviews.name": "luigi"})
