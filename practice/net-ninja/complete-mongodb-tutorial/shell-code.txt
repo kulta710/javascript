@@ -1,0 +1,102 @@
+// To access remote mongodb server
+// Then input password
+mongosh "mongodb+srv://kulta710.bkqi64r.mongodb.net/" --apiVersion 1 --username kulta710
+
+// To show current databases
+show dbs
+
+// Change working database
+// If a database which we choose does not exist, it can be appointed. When we add collection to the database, mongodb makes the db and collection.
+use bookstore
+
+// Clear shell screen
+cls
+
+// Show current working db
+db
+
+// Find all the collections of this working database
+show collections
+
+// Variables
+var name = "yoshi"
+name = "mario"
+
+// Help
+help
+
+// Exit the mongosh
+exit
+
+// Insert a document in a collection(books) of a db(bookstore)
+db.books.insertOne({ title: "The Color of Magic", author: "Terry Pratchett", pages: 300, rating: 7, genres: ["fantasy", "magic"] })
+
+// If designated collection does not exist, you can use insertOne() method, then it makes the collection for you.
+db.authors.insertone({ name: "Brandon Sanderson", age: 60 })
+
+// Insert many documents at once
+db.books.insertMany([{ title: "The Light Fantastic", author: "Terry Pratchett", pages: 250, rating: 6, genres: ["fantasy"] }, { title: "Dune", author: "Frank Herbert", pages: 500, rating: 10, genres: ["sci-fi", "dystopian"] }])
+
+// fetch documents
+// mongosh is fetch first 20 documents and show them.
+// To fetch more, we use 'it' command to iterate
+db.books.find()
+
+// fetch documents using filter
+db.books.find({ author: "Terry Pratchett" })
+
+db.books.find({ author: "Terry Pratchett", rating: 7 })
+
+db.books.find({ author: "Brandon Sanderson" })
+
+// fetch documents using fileter and designate what fields are needed
+db.books.find({ author: "Brandon Sanderson" }, { title: 1, author: 1 })
+
+// fetch all documents in a collection, but designated fields
+db.books.find({}, { title: 1, author: 1 })
+
+// find a specific document using _id
+db.books.findOne({ _id: ObjectId('6690dce0f1465cde4557a071') })
+
+// chaining method
+db.books.find().count()
+
+db.books.find({ author: "Brandon Sanderson" }).count()
+
+db.books.find().limit(3)
+
+db.books.find().limit(3).count()
+
+// Ascending Order
+db.books.find().sort({ title: 1 })
+
+// Descending Order
+db.books.find().sort({ title: -1 })
+
+db.books.find().sort({ title: 1 }).limit(3)
+
+// Nested Documents
+db.books.insertOne({ title: "Thie Way of Kings", author: "Brandon Sanderson", rating: 9, pages: 400, genres: ["fantasy"], reviews: [{ name: "Yoshi", body: "Great book!!" }, { name: "mario", body: "so so" }] })
+
+db.books.insertMany([{ title: "The Light Fantastic", author: "Terry Pratchett", pages: 250, rating: 7, genres: ["fantasy", "magic"], reviews: [{ name: "luigi", body: "it was pretty good" }, { name: "bowser", body: "loved it!!" }] }, { title: "The Name of the Wind", author: "Patrick Rothfuss", pages: 500, rating: 10, genres: ["fantasy"], reviews: [{ name: "peach", body: "one of my favs" }] }, { title: "The Color of Magic", author: "Terry Pratchett", pages: 350, rating: 8, genres: ["fantasy", "magic"], reviews: [{ name: "luigi", body: "it was ok" }, { name: "bowser", body: "really good book" }] }, { title: "1984", author: "George Orwell", pages: 300, rating: 6, genres: ["sci-if", "dystopian"], reviews: [{ name: "peach", body: "not my cup of tea" }, {name: "mario", body: "meh"}] }])
+
+// conditional filter (special query operators)
+// > 7
+db.books.find({ rating: {$gt: 7} })
+// > 8
+db.books.find({ rating: {$gt: 8} })
+// < 8
+db.books.find({ rating: {$lt: 8} })
+// <= 8
+db.books.find({ rating: {$lte: 8} })
+// >= 8
+db.books.find({ rating: {$gte: 8} })
+
+// multiple conditions
+db.books.find({ rating: {$gt: 7}, author: "Patrick Rothfuss" })
+
+// 'or' operator
+db.books.find({$or: [{ rating: 7 }, { rating: 9 }]})
+db.books.find({$or: [{ rating: 7 }, { author: "Terry Pratchett" }]})
+
+db.books.find({$or: [{ pages: { $lt: 300 } }, { pages: { $gt: 400 } }]})
