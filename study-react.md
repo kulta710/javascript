@@ -30,14 +30,14 @@
 - [#22 - Exact Match Routes](https://www.youtube.com/watch?v=EmUa_tcSM-k&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=22) ✅
 - [#23 - Router Links](https://www.youtube.com/watch?v=DO-pSysGItQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=23) ✅
 - [#24 - useEffect Cleanup](https://www.youtube.com/watch?v=aKOQtGLT-Yk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=24) ✅
-- [#25 - Route Parameters](https://www.youtube.com/watch?v=t7VmF4WsLCo&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=25)
-- [#26 - Reusing Custom Hooks](https://www.youtube.com/watch?v=c-5VXl8yPQA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=26)
-- [#27 - Controlled Inputs (forms)](https://www.youtube.com/watch?v=IkMND33x0qQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=27)
-- [#28 - Submit Events](https://www.youtube.com/watch?v=pJiRj02PkJQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=28)
-- [#29 - Making a POST Request](https://www.youtube.com/watch?v=EcRFYF4B3IQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=29)
-- [#30 - Programmatic Redirects](https://www.youtube.com/watch?v=TmVqwhBUiSM&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=30)
-- [#31 - Deleting Blogs](https://www.youtube.com/watch?v=Wb-0CkLiyQk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=31)
-- [#32 - 404 Pages & Next Steps](https://www.youtube.com/watch?v=XW0t2lk4Ffo&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=32)
+- [#25 - Route Parameters](https://www.youtube.com/watch?v=t7VmF4WsLCo&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=25) ✅
+- [#26 - Reusing Custom Hooks](https://www.youtube.com/watch?v=c-5VXl8yPQA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=26) ✅
+- [#27 - Controlled Inputs (forms)](https://www.youtube.com/watch?v=IkMND33x0qQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=27) ✅
+- [#28 - Submit Events](https://www.youtube.com/watch?v=pJiRj02PkJQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=28) ✅
+- [#29 - Making a POST Request](https://www.youtube.com/watch?v=EcRFYF4B3IQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=29) ✅
+- [#30 - Programmatic Redirects](https://www.youtube.com/watch?v=TmVqwhBUiSM&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=30) ✅
+- [#31 - Deleting Blogs](https://www.youtube.com/watch?v=Wb-0CkLiyQk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=31) ✅
+- [#32 - 404 Pages & Next Steps](https://www.youtube.com/watch?v=XW0t2lk4Ffo&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=32) ✅
 
 #### References
 - [lecture-code-github](https://github.com/iamshaunjp/Complete-React-Tutorial)
