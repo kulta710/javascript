@@ -1,0 +1,16 @@
+{
+  "name": "complete-mongodb-tutorial",
+  "version": "1.0.0",
+  "description": "A practice project for studying MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kulta710",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}

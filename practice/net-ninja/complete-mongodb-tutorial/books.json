@@ -1,0 +1,131 @@
+[
+  {
+    "_id":{
+      "$oid":"6690f2402328b71d60c4e49f"
+    },
+    "title":"The Way of Kings",
+    "author":"Brandon Sanderson",
+    "rating":{
+      "$numberInt":"9"
+    },
+    "pages":{
+      "$numberInt":"400"
+    },
+    "genres":[
+      "fantasy"
+    ],
+    "reviews":[
+      {
+          "name":"Yoshi",
+          "body":"Great book!!"
+      },
+      {
+          "name":"mario",
+          "body":"so so"
+      }
+    ]
+  },
+  {
+    "_id":{
+       "$oid":"6690f3fe2328b71d60c4e4a0"
+    },
+    "title":"The Light Fantastic",
+    "author":"Terry Pratchett",
+    "pages":{
+       "$numberInt":"250"
+    },
+    "rating":{
+       "$numberInt":"7"
+    },
+    "genres":[
+       "fantasy",
+       "magic"
+    ],
+    "reviews":[
+       {
+          "name":"luigi",
+          "body":"it was pretty good"
+       },
+       {
+          "name":"bowser",
+          "body":"loved it!!"
+       }
+    ]
+ },
+ {
+    "_id":{
+      "$oid":"6690f3fe2328b71d60c4e4a1"
+    },
+    "title":"The Name of the Wind",
+    "author":"Patrick Rothfuss",
+    "pages":{
+      "$numberInt":"500"
+    },
+    "rating":{
+      "$numberInt":"10"
+    },
+    "genres":[
+      "fantasy"
+    ],
+    "reviews":[
+      {
+          "name":"peach",
+          "body":"one of my favs"
+      }
+    ]
+  },
+  {
+    "_id":{
+       "$oid":"6690f3fe2328b71d60c4e4a2"
+    },
+    "title":"The Color of Magic",
+    "author":"Terry Pratchett",
+    "pages":{
+       "$numberInt":"350"
+    },
+    "rating":{
+       "$numberInt":"8"
+    },
+    "genres":[
+       "fantasy",
+       "magic"
+    ],
+    "reviews":[
+       {
+          "name":"luigi",
+          "body":"it was ok"
+       },
+       {
+          "name":"bowser",
+          "body":"really good book"
+       }
+    ]
+ },
+ {
+    "_id":{
+      "$oid":"6690f3fe2328b71d60c4e4a3"
+    },
+    "title":"1984",
+    "author":"George Orwell",
+    "pages":{
+      "$numberInt":"300"
+    },
+    "rating":{
+      "$numberInt":"6"
+    },
+    "genres":[
+      "sci-fi",
+      "dystopian"
+    ],
+    "reviews":[
+      {
+          "name":"peach",
+          "body":"not my cup of tea"
+      },
+      {
+          "name":"mario",
+          "body":"meh"
+      }
+    ]
+  }
+]

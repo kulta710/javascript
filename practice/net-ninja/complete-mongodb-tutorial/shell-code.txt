@@ -128,3 +128,43 @@ db.books.find({genres: {$all: ["fantasy", "sci-fi"]}})
 
 // query for nested documents
 db.books.find({"reviews.name": "luigi"})
+
+// delete documents
+db.books.find() -> Then copy the _id of targeted document
+
+db.books.deleteOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') })
+
+db.books.deleteMany({ author: 'Terry Pratchett' })
+
+// delete all
+db.books.deleteMany({})
+
+// update documents
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a2') }, { $set: { rating: 7, pages: 360 } })
+
+db.books.updateMany({ author: 'Terry Pratchett' }, { $set: { author: 'Terry Pratchet' } })
+
+// $inc
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') }, { $inc: { pages: 2 } })
+
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') }, { $inc: { pages: -2 } })
+
+// $pull
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') }, { $pull: { genres: "sci-fi" } })
+
+// $push
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') }, { $push: { genres: "fantasy" } })
+
+// $each
+db.books.updateOne({ _id: ObjectId('6690f3fe2328b71d60c4e4a3') }, { $push: { genres: {$each: ["1", "2"]} } })
+
+// explain('executionStats')
+db.books.find({ rating: 8 }).explain('executionStats')
+
+// index
+db.books.createIndex({ rating: 8 })
+
+db.books.getIndexes()
+
+// delete index
+db.books.dropIndex({ rating: 8 })
