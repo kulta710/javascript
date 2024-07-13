@@ -5,11 +5,26 @@ const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const url = require('url')
+const ipcMain = electron.ipcMain
+const shell = electron.shell
 const Menu = electron.Menu
 const MenuItem = electron.MenuItem
 const globalShortcut = electron.globalShortcut
 
 let win
+
+function showItemInFolder (event, path) {
+    shell.showItemInFolder(path)
+}
+
+function openPath (event, path) {
+    // shell.openItme(path) -> shell.openPath(path)
+    shell.openPath(path)
+}
+
+function openExternal (event, url) {
+    shell.openExternal(url)
+}
 
 function createWindow () {
     win = new BrowserWindow({
@@ -39,6 +54,10 @@ function createWindow () {
 }
 
 app.on('ready', () => {    
+    ipcMain.on('show-item-in-folder', showItemInFolder)
+    ipcMain.on('open-path', openPath)
+    ipcMain.on('open-external', openExternal)
+    
     createWindow()
     
     const template = [
@@ -128,7 +147,7 @@ app.on('ready', () => {
     })
 })
 
-// app이 종료될 경우 설정한 globalShortcut이 모두 unregister되도록 하자
+// When app is closed, we need to unregister every globalShortcuts
 app.on('will-quit', function () {
     globalShortcut.unregisterAll()
 })

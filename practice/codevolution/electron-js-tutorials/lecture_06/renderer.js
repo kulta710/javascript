@@ -18,8 +18,7 @@ syncBtn.addEventListener('click', function () {
 
 window.electronAPI.asyncReply()
 
-// 과거에는 remote module을 쓰면 아래와 같이 renderer.js에서도 쓸 수 있었다고 한다.
-// 그러나 지금은 될 리가 없다. preload.js에서 실험해봐도 되지 않는다.
+// In the past, if we use remote module, we can use main side methods in renderer.js like below. But it cannot now.
 // const BrowserWindow = electron.remote.BrowserWindow
 // let window = new BrowserWindow()
 // window.loadURL('https://github.com/')

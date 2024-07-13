@@ -1,4 +1,4 @@
-# study-mathematics-for-computer-science
+# study-mathematics-with-javascript
 
 ## MIT OpenCourseWare
 ### Mathematics For Computer Science

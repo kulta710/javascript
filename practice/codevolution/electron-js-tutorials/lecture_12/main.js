@@ -13,7 +13,7 @@ let win
 function readFile (event, fileName) {
     let pathName = path.join(__dirname, 'files', fileName)
     
-    // fs.readFile()에 'utf8' option을 넣어주어야 텍스트로 읽어낼 수 있다.
+    // To read the file in text, we need to input 'utf8' option in fs.readFile() method.
     fs.readFile(pathName, 'utf8', function (error, content) {
         if (error) {
             return console.log(error)

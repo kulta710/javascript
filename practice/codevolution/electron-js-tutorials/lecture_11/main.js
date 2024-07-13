@@ -46,8 +46,8 @@ app.on('ready', function () {
         }
     ]
 
-    // Tray icon을 right click해야 조종할 수 있다.
-    // Tray icon에 hover하면 tool tip을 볼 수 있다.
+    // We can control as right click the tray icon
+    // We can see tool tip when we hover the tray icon
     const ctxMenu = Menu.buildFromTemplate(template)
     tray.setContextMenu(ctxMenu)
     tray.setToolTip('Tray Application')

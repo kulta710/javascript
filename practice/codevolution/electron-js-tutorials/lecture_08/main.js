@@ -6,6 +6,7 @@ const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const url = require('url')
 const Menu = electron.Menu
+const MenuItem = electron.MenuItem
 
 let win
 
@@ -92,7 +93,7 @@ app.on('ready', () => {
         {
             label: 'Help',
             click: function () {
-                // 브라우저 창에서 해당 url 탭을 실행시켜주는 코드
+                // Execute a tab window of the url in the browser
                 electron.shell.openExternal('https://www.electronjs.org/')
             }
         }
@@ -100,6 +101,21 @@ app.on('ready', () => {
 
     const menu = Menu.buildFromTemplate(template)
     Menu.setApplicationMenu(menu)
+
+    const ctxMenu = new Menu()
+    ctxMenu.append(new MenuItem({
+        label: 'Hello',
+        click: function () {
+            console.log('Context menu item clicked')
+        }
+    }))
+    ctxMenu.append(new MenuItem({
+        role: 'selectall'
+    }))
+
+    win.webContents.on('context-menu', function (event, params) {
+        ctxMenu.popup(win, params.x, params.y)
+    })
 })
 
 app.on('window-all-closed', () => {
