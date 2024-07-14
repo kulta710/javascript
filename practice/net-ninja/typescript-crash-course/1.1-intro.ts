@@ -35,3 +35,18 @@ interface MenuItem {
 function printMenuItem(item: MenuItem) {
   console.log(item.title, ': ', item.cost)
 }
+
+// error example 1
+// printMenuItem()
+
+// error example 2
+// printMenuItem({ title: 'veggie carbonara', cost: '15' })
+
+// error example 3
+// printMenuItem({ name: 'avocado on toast', cost: 8 })
+
+// correct example
+printMenuItem({ title: 'cheese pizza', cost: 10 })
+
+// 4 - self documenting
+// printMenuItem()
