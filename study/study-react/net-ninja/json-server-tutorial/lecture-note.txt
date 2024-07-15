@@ -1,2 +1,21 @@
 // install JSON Server
+// When we install package using -g option, it is installed globally.
+// In my case, C:/Users/kulta710/AppData/Roaming/npm/node_modules is the installation folder
 npm install -g json-server
+
+// Watching data/db.json
+json-server --watch data/db.json
+
+Index:
+http://localhost:3000/
+
+Endpoints:
+http://localhost:3000/posts
+http://localhost:3000/polls
+
+// Version
+// There are problems if you are using latest version
+// Query String is not working properly
+// So I recommend you to install previous version like below
+npm uninstall -g json-server
+npm install -g json-server@0.17.4
