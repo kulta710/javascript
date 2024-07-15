@@ -1,0 +1,57 @@
+>>> lecture 01
+
+////////////////////////////////////////////////
+"Everything in JS, is an Object"
+
+- Objects in JS are quite like objects in real life
+- They have properties & things they can do (methods)
+////////////////////////////////////////////////
+
+// in the browser console
+var name = ['ryu', 'crystal', 'mario']
+
+names.length
+
+// prototype methods
+names.sort()
+
+// window object
+window.innerWidth
+
+// null is not an object
+// the primitive types of javascript (boolean, number, string, null, undefined) are not object
+
+// But using wrapper in javascript the primitive types of javascript can also behave like object
+
+// When we write below code
+name.length
+
+// Basically we can not write this way, but javascript engine automatically wrap using String() wrapper and read length property
+
+var name2 = new String('ryu')
+
+name2
+String {"ryu"}
+
+////////////////////////////////////////////////
+Ninjabus(Syllabus)
+
+- Creating our own objects using object literal notation
+- JavaScript Classes & Constructors
+- Inheritance
+- Method chaining
+- Prototypes & Prototype inheritance
+////////////////////////////////////////////////
+
+////////////////////////////////////////////////
+Before You Start
+
+Before starting this course, make sure you...
+-Understand the basics of JavaScript
+////////////////////////////////////////////////
+
+////////////////////////////////////////////////
+Classes
+
+Classes in JavaScript are like blueprints
+////////////////////////////////////////////////

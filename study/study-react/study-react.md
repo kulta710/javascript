@@ -202,8 +202,8 @@
 
 ### React Context & Hooks Tutorial
 #### Video List
-- [#1 - Introduction](https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=1)
-- [#2 - What is the Context API?](https://www.youtube.com/watch?v=XkBB3pPY3t8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=2)
+- [#1 - Introduction](https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=1) ✅
+- [#2 - What is the Context API?](https://www.youtube.com/watch?v=XkBB3pPY3t8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=2) ✅
 - [#3 - Adding a Context & Provider](https://www.youtube.com/watch?v=CGRpfIUURE0&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=3)
 - [#4 - Accessing Context (part 1)](https://www.youtube.com/watch?v=WkBXRQfpifc&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=4)
 - [#5 - Accessing Conetxt (part 2)](https://www.youtube.com/watch?v=1bsvh_0HRwA&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=5)
@@ -223,6 +223,9 @@
 - [#19 - Reducers, Actions & State](https://www.youtube.com/watch?v=uXWycyeTeCs&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=19)
 - [#20 - Adding a Reducer](https://www.youtube.com/watch?v=zIOWnK5RcOU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=20)
 - [#21 - Adding a Local Storage](https://www.youtube.com/watch?v=SOnMln3W0U8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=21)
+
+#### References
+- [lecture-code-github](https://github.com/iamshaunjp/react-context-hooks)
 
 ### Complete React Tutorial (with Redux)
 
