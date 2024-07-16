@@ -37,7 +37,7 @@
 
 ### Asynchronous Javascript (2020 version)
 #### Video List
-- [#1 - What is Async JavaScript](https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=1)
+- [#1 - What is Async JavaScript](https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=1) ✅
 - [#2 - HTTP Requests](https://www.youtube.com/watch?v=aNDfsHQ5Gts&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=2)
 - [#3 - Status Codes](https://www.youtube.com/watch?v=R3tZ3FtTluQ&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=3)
 - [#4 - Callback Functions](https://www.youtube.com/watch?v=K-Q-xyrA89M&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=4)
