@@ -4,7 +4,7 @@ var userOne = {
   email: 'ryu@ninjas.com',
   name: 'Ryu',
   login () {
-    // If we use this keyword in a object like this case, this points to this object
+    // If we use 'this' keyword in a object like in this case, 'this' points to this object
     console.log(this.email, 'has logged in')
   },
   logout () {
@@ -12,7 +12,7 @@ var userOne = {
   }
 }
 
-// But we use this keyword like below, this points to global object 'window'
+// But we use 'this' keyword like below, 'this' points to global object 'window'
 // this
 
 userOne.name = 'Yoshi'

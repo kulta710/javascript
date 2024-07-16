@@ -23,21 +23,31 @@
 
 ### JavaScript ES6 Tutorials
 #### Video List
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-
-#### References
+- [#1 - Introduction](https://www.youtube.com/watch?v=0Mp2kwE8xY0&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=1) ✅
+- [#2 - Constants](https://www.youtube.com/watch?v=gVJyJlJOij8&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=2) ✅
+- [#3 - The Let Keyword](https://www.youtube.com/watch?v=DWxs3Sjzg2E&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=3) ✅
+- [#4 - Default Parameters](https://www.youtube.com/watch?v=VQiM9ctxj2E&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=4) ✅
+- [#5 - The Spread Operator](https://www.youtube.com/watch?v=1INe_jCWq1Q&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=5) ✅
+- [#6 - Template Strings](https://www.youtube.com/watch?v=3ryyo3C3ejk&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=6) ✅
+- [#7 - New String Methods](https://www.youtube.com/watch?v=r-nvXY9n2C8&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=8) ✅
+- [#8 - Object Literal Enhancements](https://www.youtube.com/watch?v=Zk6oYqu3tsw&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=7)
+- [#9 - Arrow Functions](https://www.youtube.com/watch?v=nMApc_undbI&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=9) ✅
+- [#10 - Sets](https://www.youtube.com/watch?v=mzlIYyY6he4&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=10) ✅
+- [#11 - Generators](https://www.youtube.com/watch?v=Ojis8iFIjDQ&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml&index=11) ✅
 
 ### Asynchronous Javascript (2020 version)
+#### Video List
+- [#1 - What is Async JavaScript](https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=1)
+- [#2 - HTTP Requests](https://www.youtube.com/watch?v=aNDfsHQ5Gts&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=2)
+- [#3 - Status Codes](https://www.youtube.com/watch?v=R3tZ3FtTluQ&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=3)
+- [#4 - Callback Functions](https://www.youtube.com/watch?v=K-Q-xyrA89M&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=4)
+- [#5 - Using JSON Data](https://www.youtube.com/watch?v=a941B7g3fv8&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=5)
+- [#6 - Callback Hell](https://www.youtube.com/watch?v=EQem2gugonA&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=6)
+- [#7 - Promises](https://www.youtube.com/watch?v=a_8nrslImo4&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=7)
+- [#8 - Chaining Promises](https://www.youtube.com/watch?v=GfVMKkUk2Uo&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=8)
+- [#9 - The Fetch API](https://www.youtube.com/watch?v=drK6mdA9d_M&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=9)
+- [#10 - Async & Await](https://www.youtube.com/watch?v=CWjNefiE47Y&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=10)
+- [#11 - Throwing Errors](https://www.youtube.com/watch?v=AoBSB00vW5A&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=11)
 
 ### Modern JavaScript Tutorial
 

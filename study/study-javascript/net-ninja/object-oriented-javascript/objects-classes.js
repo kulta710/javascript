@@ -43,13 +43,13 @@ var admin = new Admin('shaun@ninjas.com', 'shaun')
 console.log(userOne)
 console.log(userTwo)
 
-// method chaining
+// Method Chaining
 userOne.login().updateScore().updateScore().updateScore().logout()
 userTwo.login().updateScore().updateScore().logout()
 
 var users = [userOne, userTwo, admin]
 
 admin.deleteUser(userOne)
-// userOne.deleteUser(userTwo)
+// userOne.deleteUser(userTwo) // impossible
 
 console.log(users)

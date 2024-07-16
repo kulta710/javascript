@@ -1,3 +1,5 @@
+// Prototype and Inheritance
+
 function User (email, name) {
   this.email = email
   this.name = name

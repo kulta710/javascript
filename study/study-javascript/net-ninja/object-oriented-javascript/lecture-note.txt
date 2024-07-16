@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////
 
 // in the browser console
-var name = ['ryu', 'crystal', 'mario']
+var names = ['ryu', 'crystal', 'mario']
 
 names.length
 

@@ -1,0 +1,15 @@
+#######################################################
+What is ECMAScript?
+
+- A standard for scripting languages, like the one you're probably using - JavaScript
+
+- Current version implemented into most browsers is ES5
+#######################################################
+
+#######################################################
+ECMAScript 6
+
+- Latest standardized version of ES
+- Includes many new features
+- Not fully supported in browsers yet
+#######################################################
