@@ -1,4 +1,4 @@
-# Study Javascript
+# study-javascript
 
 ## Main Sites
 - [JavaScript - MDN Web Docs - Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

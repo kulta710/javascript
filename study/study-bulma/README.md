@@ -1,4 +1,4 @@
-## Bulma CSS Framework
+## study-bulma
 ### Main Sites
 - [BULMA Hompage](https://bulma.io/)
 

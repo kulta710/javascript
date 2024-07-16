@@ -1,4 +1,4 @@
-# Study Electron
+# study-electron
 ## Main Sites
 - [Electron JS HomePage](https://www.electronjs.org/)
 - [Electron JS Docs](https://www.electronjs.org/docs/latest/)
