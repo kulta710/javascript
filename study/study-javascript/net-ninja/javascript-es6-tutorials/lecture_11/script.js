@@ -17,7 +17,7 @@ window.onload = function () {
   myGen.next() // pause at 'yield' point
   myGen.next() // restart the execution and pause at 'yield' point
   myGen.next() // restart the execution and pause at 'yield' point
-  myGen.next() // restart and execute all
+  myGen.next() // restart and finish
 
   function* gen2() {
     yield "pear"
@@ -32,10 +32,10 @@ window.onload = function () {
   // When we need to finish the function and return specific value finally, we use 'return'
   
   var myGen2 = gen2()
-  console.log(myGen2.next()) // iterator object (has value of 'pear', 'done': false)
-  console.log(myGen2.next()) // iterator object (has value of 'banana', 'done': false)
-  console.log(myGen2.next()) // iterator object (has value of 'apple', 'done': false)
-  console.log(myGen2.next()) // iterator object (has value of 'all done', 'done': true)
+  console.log(myGen2.next()) // iterator object ('value': 'pear', 'done': false)
+  console.log(myGen2.next()) // iterator object ('value': 'banana', 'done': false)
+  console.log(myGen2.next()) // iterator object ('value': 'apple', 'done': false)
+  console.log(myGen2.next()) // iterator object ('value': 'all done', 'done': true)
 
   //////////////////////////////////////////////////////////////
 
@@ -49,8 +49,8 @@ window.onload = function () {
   // When we submit an argument at a specific yield point, we submit the value to the left variable.
 
   var myGen3 = gen3()
-  console.log(myGen3.next()) // iterator object (has value of 'pear', 'done': false)
-  console.log(myGen3.next(10)) // iterator object (has value of 'banana', 'done': false)
-  console.log(myGen3.next(5)) // iterator object (has value of 'apple', 'done': false)
-  console.log(myGen3.next(3)) // iterator object (has value of 18, 'done': true)
+  console.log(myGen3.next()) // iterator object ('value': 'pear', 'done': false)
+  console.log(myGen3.next(10)) // iterator object ('value': 'banana', 'done': false)
+  console.log(myGen3.next(5)) // iterator object ('value': 'apple', 'done': false)
+  console.log(myGen3.next(3)) // iterator object ('value': 18, 'done': true)
 }

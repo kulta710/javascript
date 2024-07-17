@@ -5,13 +5,13 @@ var userOneFriends = ['Yoshi']
 
 // create user two
 var userTwoEmail = 'yoshi@mariocorp.com'
-var userOneName = 'Yoshi'
-var userOneFriends = ['Ryu', 'Mario']
+var userTwoName = 'Yoshi'
+var userTwoFriends = ['Ryu', 'Mario']
 
 // create user three
-var userTwoEmail = 'mario@mariocorp.com'
-var userOneName = 'Mario'
-var userOneFriends = ['Yoshi']
+var userThreeEmail = 'mario@mariocorp.com'
+var userThreeName = 'Mario'
+var userThreeFriends = ['Yoshi']
 
 function login (email) {
   console.log(email, 'is now online')

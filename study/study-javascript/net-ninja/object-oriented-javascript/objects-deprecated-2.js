@@ -37,8 +37,8 @@ userOne.age // = 25
 userOne.logInfo = function () {}
 
 // This way in which we create object is fine, but what can we do when we have to create 10000 objects?
-// Do you copy and paste the object and rewrite all names of objects and values of properties?
-// It would not be good way
+// Would you copy and paste the object and rewrite all names of objects and values of properties?
+// It would not be a good way
 
 var userTwo = {
   email: 'yoshi@mariocorp.com',
