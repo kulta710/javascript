@@ -3,7 +3,7 @@ import { ThemeContext } from '../contexts/ThemeContext'
 
 class BookList extends Component {
   // As we write this code, we can use context data using this.context
-  static contextType = ThemeContext()
+  static contextType = ThemeContext
 
   render() {
     const { isLightTheme, light, dark } = this.context
@@ -12,9 +12,9 @@ class BookList extends Component {
     return (
       <div className="book-list" style={{ background: theme.bg, color: theme.syntax }}>
         <ul>
-          <li>The way of kings</li>
-          <li>The name of the wind</li>
-          <li>The final empire</li>
+          <li style={{ background: theme.ui}}>The way of kings</li>
+          <li style={{ background: theme.ui}}>The name of the wind</li>
+          <li style={{ background: theme.ui}}>The final empire</li>
         </ul>
       </div>
     )

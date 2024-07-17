@@ -1,2 +1,19 @@
 // First of all, create React project.
 npx create-react-app .
+
+/////////////////////////////////////////////////
+React Hooks
+
+- Special functions
+- Allow us to additional things inside functional components
+  e.g. Use state
+
+useState()
+: use state within a functional component
+
+useEffect()
+: run code when a component renders (or re-renders)
+
+useContext()
+consume context in a functional component
+/////////////////////////////////////////////////
