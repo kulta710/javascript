@@ -5,7 +5,7 @@
   - [Learn React](https://react.dev/learn)
   - [API Reference](https://react.dev/reference/react)
 
-### Learn React
+<!-- ### Learn React
 - GET STARTED
   - [Quick Start]() ✅
     - [Tutorial: Tic-Tac-Toe]()
@@ -52,7 +52,7 @@
     - [Lifecycle of Reactive Effects]()
     - [Separating Events from Effects]()
     - [Removing Effect Dependencies]()
-    - [Reusing Logic with Custom Hooks]()
+    - [Reusing Logic with Custom Hooks]() -->
 
 <!-- ### API Reference
 - react@18.3.1
@@ -220,18 +220,33 @@
 - [#16 - Reading List Project (part 1)](https://www.youtube.com/watch?v=v1s_rbZbqQI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=16) ✅
 - [#17 - Reading List App (part 2)](https://www.youtube.com/watch?v=TiPMmgp9vcc&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=17) ✅
 - [#18 - Reading List App (part 3)](https://www.youtube.com/watch?v=1I-vfkOVAXU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=18) ✅
-- [#19 - Reducers, Actions & State](https://www.youtube.com/watch?v=uXWycyeTeCs&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=19)
-- [#20 - Adding a Reducer](https://www.youtube.com/watch?v=zIOWnK5RcOU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=20)
-- [#21 - Adding a Local Storage](https://www.youtube.com/watch?v=SOnMln3W0U8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=21)
+- [#19 - Reducers, Actions & State](https://www.youtube.com/watch?v=uXWycyeTeCs&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=19) ✅
+- [#20 - Adding a Reducer](https://www.youtube.com/watch?v=zIOWnK5RcOU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=20) ✅
+- [#21 - Adding a Local Storage](https://www.youtube.com/watch?v=SOnMln3W0U8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=21) ✅
 
 #### References
 - [lecture-code-github](https://github.com/iamshaunjp/react-context-hooks)
 
+### React Router in Depth
+#### Video List
+- [#1 - Introduction](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=1) ✅
+- [#2 - React Router Basics](https://www.youtube.com/watch?v=XN7E5tKM-no&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=2) ✅
+- [#3 - Router Provider, createBrowserRouter & Outlet](https://www.youtube.com/watch?v=5s57C7leXc4&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=3)
+- [#4 - Nested Routes & Layouts](https://www.youtube.com/watch?v=l8CS9AMBSIQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=4)
+- [#5 - Custom 404 Page](https://www.youtube.com/watch?v=0sfBVj03sRY&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=5)
+- [#6 - Loaders](https://www.youtube.com/watch?v=K-bxVELldCc&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=6)
+- [#7 - Route Parameters](https://www.youtube.com/watch?v=T8ZhepmbP4s&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=7)
+- [#8 - Error Elements](https://www.youtube.com/watch?v=n0Rvia8w7p0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=8)
+- [#9 - Making Breadcrumbs (useLocation hook)](https://www.youtube.com/watch?v=zy8rqihtvA8&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=9)
+- [#10 - Forms & Actions](https://www.youtube.com/watch?v=tvE8B1HBoOQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=10)
+- [#11 - Navigate Component](https://www.youtube.com/watch?v=JNWSMJshmOQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=11)
+
+#### References
+- [lecture-code-github](https://github.com/iamshaunjp/react-router-in-depth)
+
 ### Complete React Tutorial (with Redux)
 
 ### React Tutorials
-
-### React Router in Depth
 
 ### Make a Memory Game with React
 
