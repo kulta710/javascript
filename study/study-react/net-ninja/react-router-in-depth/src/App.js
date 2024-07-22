@@ -1,34 +1,57 @@
-import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom'
+import {
+  createBrowserRouter,
+  Route,
+  NavLink,
+  createRoutesFromElements,
+  RouterProvider
+} from 'react-router-dom'
 
 // pages
 import Home from './pages/Home';
 import About from './pages/About';
+import FAQ from './pages/help/FAQ';
+import Contact from './pages/help/Contact';
+import Careers, { careersLoader } from './pages/careers/Careers';
+import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails'
+import NotFound from './pages/NotFound';
+
+// layouts
+import RootLayout from './layouts/RootLayout'
+import HelpLayout from './layouts/HelpLayout'
+import CareersLayout from './layouts/CareersLayout';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      
+      <Route path="help" element={<HelpLayout />}>
+        <Route path="faq" element={<FAQ />} />
+        <Route path="contact" element={<Contact />} />
+      </Route>
+
+      <Route path="careers" element={<CareersLayout />}>
+        <Route
+          index
+          element={<Careers />}
+          loader={careersLoader}
+        />
+        <Route
+          path=":id"
+          element={<CareerDetails />}
+          loader={careerDetailsLoader}
+        />
+      </Route>
+
+      <Route path="*" element={<NotFound />}/>
+    </Route>
+  )
+)
 
 function App() {
   return (
-    <BrowserRouter>
-      <header>
-        <nav>
-          <h1>Jobarouter</h1>
-          {/* The difference between Link and NavLink is class="active" */}
-          {/* You choose to use NavLink you style to the 'active class' */}
-          {/* <Link to="/">Home</Link> */}
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-        </nav>
-      </header>
-      <main>
-        <Routes>
-          {/* 'index' is same as path="/" */}
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route index element={<Home />} />
-
-          {/* You can omit root character '/' */}
-          {/* <Route path="/about" element={<About />} /> */}
-          <Route path="about" element={<About />} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   );
 }
 

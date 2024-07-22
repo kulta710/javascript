@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Header from './include/Header'
-import Navbar from './include/Navbar'
-import Footer from './include/Footer'
+import Header from './components/include/Header'
+import Navbar from './components/include/Navbar'
+import Footer from './components/include/Footer'
 
-import Home from './home/Home'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -13,23 +13,11 @@ function App() {
         <Header />
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route>
-              <Blog />
-            </Route>
-            <Route>
-
-            </Route>
-            <Route>
-
-            </Route>
-            <Route>
-
-            </Route>
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/training" element={<Training />} />
+          </Routes>
         </div>
         <Footer />
       </BrowserRouter>

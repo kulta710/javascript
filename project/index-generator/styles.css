@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#filenameBox {
+  border: 0.2em solid lightgrey;
+  padding: 0.5em;
+}
+
+#filenameBox>input[type=text] {
+  border: 0.2em solid lightgrey;
+  padding: 0.5em;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+#filenameBox>button {
+  border: 0.2em solid lightgrey;
+  background-color: lightgrey;
+  width: 100%;
+  height: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+#filenameBox>button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
